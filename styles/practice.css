@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.bg p {
+    color: #282828;
+    /* height: 500px; */
+    /* background: url(https://i.pinimg.com/736x/16/63/df/1663dfe….jpg) no-repeat 68px -33px; */
+    background-size: cover;
+    /* max-width: 700px; */
+    background-color: tomato;
+    /* background: url(../assets/csk-img-1.jpeg); */
+    outline: 3px solid #000000;
+    outline-offset: 4px;
+    margin-bottom: 16px;
+    padding: 15px;
+
+    text-transform: lowercase;
+    /* letter-spacing: 5; */
+    word-spacing: 7;
+    line-height: 24px;
+
+}
+
+p.test2 .test1 body {
+    /* padding: 20px; */
+    font-family: "Raleway", sans-serif;
+}
+
+.bg {
+    width: 95%;
+    margin: 11px auto 42px;
+    /* text-align: center; */
+}
+
+h1 span {
+    text-shadow: 0px 4px 4px tomato;
+}
+
+
+
+.each-item {
+    width: 25%;
+    background: aquamarine;
+    display: inline-block;
+}
+
+
+a.redirection-link {
+    text-decoration: none;
+    color: #12207e;
+    padding: 5px 25px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.redirection-link {
+    color: black;
+
+}
+
+a.facebook {
+    background: slateblue;
+    color: #fff;
+
+}
+
+a.instagram {
+    background: #1d1d1d;
+    color: #F56040;
+}
+
+a.whatsapp {
+    outline: 1px solid #25D366;
+    color: #25D366;
+    transition: all 0.5s ease-in-out;
+
+}
+
+a.whatsapp:hover {
+    background: #25D366;
+    color: #fff;
+}
+
+a.whatsapp:active {
+    background: #000000;
+    color: red;
+}
+
+
+.company-table {
+    /* border-radius: 8px; */
+    width: 90%;
+    margin: auto;
+}
+
+.company-table,
+.company-table tr,
+.company-table td,
+.company-table th {
+    border: 1px solid darkslategrey;
+    border-collapse: collapse;
+    font-size: 13px;
+    padding: 5px 29px;
+    transition: all .5s ease-in;
+    cursor: pointer;
+}
+
+th {
+    background: bisque;
+    height: 36px;
+}
+
+tr:hover {
+    background: darkgray;
+    color: #000;
+}
+
+
+
+.table-container {
+    height: 200px;
+    background: aquamarine;
+    overflow-x: scroll;
+    width: 500px;
+    overflow-y: hidden;
+}
+
+button.btn-social {
+    background: #888c99;
+    border: none;
+    padding: 5px 22px;
+    border-radius: 8px;
+    display: block;
+}
+
+button.btn-social {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+h2 {
+    /* float: left; */
+}
+
+h1.p div.test p {
+    color: red;
+}

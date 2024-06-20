@@ -1,0 +1,167 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        ::selection {
+            background: red;
+        }
+
+        .relative {
+            position: relative;
+            left: 36px;
+            top: -12px;
+        }
+
+        span.cart-count {
+            background: #FFEB3B;
+            padding: 0px 4px;
+            border-radius: 50%;
+            font-size: 10px;
+        }
+
+        .cart-container {
+            position: relative;
+        }
+
+        span.cart-count {
+            background: #FFEB3B;
+            padding: 0px 4px;
+            border-radius: 50%;
+            font-size: 10px;
+            position: absolute;
+            top: -5px;
+            /* top: 161px; */
+            left: 11px;
+            /* z-index: -1; */
+        }
+
+        span.whatsapp-count {
+            background: #c92828;
+            color: #fff;
+            padding: 5px 6px;
+            border-radius: 50%;
+            font-size: 11px;
+            position: absolute;
+            top: -9px;
+            left: 25px;
+        }
+
+        .whatsapp-container {
+            position: relative;
+        }
+
+        .test::after {
+            content: ">";
+            background: red;
+            color: #fff;
+            padding: 4px;
+            border-radius: 50%;
+        }
+
+        p[title='IPL'] {
+            background-color: #FFEB3B;
+        }
+
+        /* p[title~='IPL'] {
+            background: #c92828;
+        } */
+
+        /* p[title|="IPL"] {
+            background: tomato;
+        } */
+
+        /* p[title^="IPL"] {
+            background: slateblue;
+        } */
+
+        p[title*="IPL"] {
+            background: slateblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <h1>Positions in css</h1>
+
+    <p>Static - by default</p>
+
+    <p class="relative"> position relative</p>
+
+    <p class="abs">Absolute</p> -->
+    <!-- 
+
+    <div class="cart-container">
+        <span class="cart-img"><i class="fa-solid fa-cart-shopping"></i></span>
+        <span class="cart-count">2</span>
+    </div>
+
+
+    <div class="whatsapp-container">
+
+        <img src="assets/whatsapp.svg" alt="whatsapp">
+        <span class="whatsapp-count">10</span>
+
+    </div>
+
+
+    <div class="chatbot">
+        <img src="https://img.icons8.com/?size=100&id=1tJtQEwgJmxW&format=png&color=000000" alt="test">
+    </div> -->
+
+
+    <p class="para-1" title="IPL-t">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, provident
+        obcaecati
+        quas
+        quibusdam suscipit
+        praesentium perspiciatis .</p>
+
+    <p class="para-2" title="IPL world cup">cum perferendis itaque ipsam, neque, nostrum maxime corporis. Fugiat
+        architecto ullam
+        voluptate soluta ad</p>
+
+    <p class="para3" title="virat-IPL">cum perferendis itaque ipsam, neque, nostrum maxime corporis. Fugiat architecto
+        ullam
+        voluptate soluta ad</p>
+
+
+    <a href="top-content" title="top link">Top</a>
+
+
+    <!-- <div class="main">
+
+        <p class="test"> test 1</p>
+        <p> test 2</p>
+        <p>test 3</p>
+        <p>test 4</p>
+
+        <section>
+            <p class="text">test 5 - in side section Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+                quas ducimus provident dolorem nemo necessitatibus aliquam dolores expedita. Quos quasi delectus iure
+                nulla fuga enim suscipit unde consequuntur deleniti maxime! Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Veniam blanditiis accusantium quia corrupti minus ex adipisci hic soluta
+                necessitatibus rem officiis, unde id nobis reprehenderit perspiciatis, dolores rerum dolorum
+                repudiandae.</p>
+        </section>
+
+        <p>test 6 - inside div</p>
+    </div>
+
+    <p>test 7 - adjacent to div</p>
+    <p>test 8 - sibling inside section</p>
+
+
+    <section>
+
+    </section> -->
+</body>
+
+</html>

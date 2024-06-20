@@ -1,0 +1,3 @@
+Inline  - HTML open tags  - Highest priority 
+Internal  - head tag - second Highest priority 
+External - seprate file -  least priority 

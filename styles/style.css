@@ -1,0 +1,96 @@
+.heading {
+    color: chocolate;
+}
+
+p {
+    color: burlywood;
+}
+
+/* #insta-profile {
+    background-color: cornflowerblue;
+} */
+
+/* 
+
+input[type] {
+    background: red;
+}
+*/
+
+a[class='www.instagram.com*'] {
+    color: aqua;
+}
+
+p.className {
+    color: red;
+}
+
+/* input {
+    width: 251px;
+    height: 19px;
+    padding: 7px;
+    border-radius: 8px;
+    border: 2px solid black;
+} */
+
+.input-element {
+    width: 25px;
+    height: 26px;
+    padding-left: 13px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+form div {
+    margin-top: 15px;
+}
+
+form {
+    margin-left: 27px;
+}
+
+.form-container label {
+    width: 100px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+select#state {
+    width: 250px;
+    height: 31px;
+    padding-left: 10px;
+}
+
+.radio-container input {
+    margin-right: 20px;
+}
+
+.radio-container label {
+    font-size: 20px;
+}
+
+
+textarea#desc {
+    width: 350px;
+    margin-top: 12px;
+}
+
+::placeholder {
+    color: slateblue;
+    font-size: 14px;
+}
+
+.input-element {
+    width: 50px;
+    height: 26px;
+    padding-left: 13px;
+    border: none;
+    border: 1px solid slateblue;
+    border-radius: 0;
+    transition: all 0.5s ease-in;
+}
+
+.input-element:focus-visible {
+    background: tomato;
+    width: 250px;
+}
